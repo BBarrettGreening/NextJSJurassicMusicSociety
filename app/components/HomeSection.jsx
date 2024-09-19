@@ -20,7 +20,7 @@ const HomeSection = () => {
             <div className="col-span-5 place-self-center  mt-4 lg:mt-0">
                 <div className="flex items-center justify-center">
                     <Image 
-                    src="/JMS.png"
+                    src="./JMS.png"
                     alt="test"
                     className="rounded-full"
                     height={600}
