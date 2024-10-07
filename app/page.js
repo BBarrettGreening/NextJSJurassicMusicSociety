@@ -2,6 +2,7 @@ import Image from "next/image";
 import HomeSection from "./components/HomeSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 export default function Home() {
