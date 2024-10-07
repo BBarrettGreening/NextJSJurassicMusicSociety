@@ -14,7 +14,21 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "JurassicMusicSociety",
-  description: "Your community-driven radio destination",
+  description: "Your community-driven radio destination.",
+  keywords: ["music", "radio", "community", "Jurassic Music Society", "JurassicMusicSociety", "entertainment", "jurassic", "society", "live music"],
+  openGraph: {
+    title: "JurassicMusicSociety",
+    description: "Your community-driven radio destination.",
+    url: "https://jurassicmusicsociety.com", 
+    images: [
+      {
+        url: "/JMS.png", 
+        width: 800,
+        height: 600,
+        alt: "JMS",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
