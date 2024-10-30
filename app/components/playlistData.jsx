@@ -1,5 +1,41 @@
 const playlistsData = [
   {
+    id:31,
+    title:"Weekly Mix 25.10.2024",
+    link:"https://open.spotify.com/embed/playlist/0EloD5Mu6y2dHRnF40H0Ft?utm_source=generator",
+    tag: ["All", "Weekly"],
+},
+{
+  id:30,
+  title:"Weekly Mix 18.10.2024",
+  link:"https://open.spotify.com/embed/playlist/2jVInStX5AO2rzqMzx8qeR?utm_source=generator",
+  tag: ["All", "Weekly"],
+},
+  {
+    id:29,
+    title:"Weekly Mix 11.10.2024",
+    link:"https://open.spotify.com/embed/playlist/3Nqf9XVbJQjAVDpfcwdBY5?utm_source=generator",
+    tag: ["All", "Weekly"],
+},
+{
+  id:28,
+  title:"Weekly Mix 4.10.2024",
+  link:"https://open.spotify.com/embed/playlist/2HqUAXz9ZCzI4eYJwJ36dr?utm_source=generator",
+  tag: ["All", "Weekly"],
+},
+{
+  id:27,
+  title:"Weekly Mix 27.09.2024",
+  link:"https://open.spotify.com/embed/playlist/6jUG98sQZZIYpWtVja2EL2?utm_source=generator",
+  tag: ["All", "Weekly"],
+},
+{
+  id:26,
+  title:"Weekly Mix 20.09.2024",
+  link:"https://open.spotify.com/embed/playlist/7fB5TEPdzEKagMbuk1CNjV?utm_source=generator",
+  tag: ["All", "Weekly"],
+},
+  {
     id:25,
     title:"Weekly Mix 13.09.2024",
     link:"https://open.spotify.com/embed/playlist/2RwVYcBKU6dqUgrvmJZr5l?utm_source=generator",
