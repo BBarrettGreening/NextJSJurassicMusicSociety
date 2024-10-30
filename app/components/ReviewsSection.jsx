@@ -6,8 +6,8 @@ import Script from 'next/script'
 
 const ReviewsSection = () => {
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 md:py-15 gap-4">
-        <div className="md:mb-0 mb-6">
+    <section className="grid lg:grid-cols-2 my-12 lg:my-12 md:py-15 gap-4">
+        <div className="lg:mb-0 mb-6">
             <h5 className="text-xl font-bold text-black my-2">
                 Leave Us A Review
             </h5>

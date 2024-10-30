@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link href="/" className="text-3xl text-white font-semibold">
             Jurassic Music Society
             </Link>
-            <div className="mobile-menu block md:hidden">
+            <div className="mobile-menu block lg:hidden">
             {
                 !navbarOpen ? (
                     <button onClick={ () => setNavbarOpen(true)} className="flex items-center px-3 py-2 border rounded text-slate-200 hover:text-white">
@@ -48,7 +48,7 @@ const Navbar = () => {
             }
 
             </div>
-            <div className="menu sm:hidden md:block md:w-auto" id="navbar">
+            <div className="menu sm:hidden lg:block lg:w-auto" id="navbar">
                 <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mr-0 mt-5">
                     {navLinks.map((link, index) => (
                             <li key={index}>
