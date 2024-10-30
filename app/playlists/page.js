@@ -7,6 +7,8 @@ import Footer from "/app/components/Footer";
 
 export default function Home() {
   return (
+    <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <main className="flex min-h-screen flex-col bg-white">
       <Navbar />
       <div className="mt-24 container mx-auto px-12 py-4">
@@ -14,6 +16,6 @@ export default function Home() {
       </div>
       <Footer />
     </main>
-
+    </>
   );
 }

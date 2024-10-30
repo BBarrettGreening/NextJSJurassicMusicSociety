@@ -5,9 +5,10 @@ import Footer from "./components/Footer";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from "@vercel/analytics/react"
 
-
 export default function Home() {
   return (
+    <>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <main className="flex min-h-screen flex-col bg-white">
       <SpeedInsights />
       <Analytics />
@@ -19,6 +20,6 @@ export default function Home() {
       </div>
       <Footer />
     </main>
-
+    </>
   );
 }
