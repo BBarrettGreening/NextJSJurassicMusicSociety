@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: <https://bustamantebg.uk>
-
-# Sitemaps
-Sitemap: <https://bustamantebg.uk>/sitemap.xml
